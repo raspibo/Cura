@@ -30,12 +30,13 @@ Both MacOS and Linux require some extra instructions for development, as you nee
 Debian and Ubuntu Linux ?
 --------
 
-For "raspbian", download and install pckages from Debian sid (armhf):
+For "raspbian", download and install packages from Debian sid (armhf):
+```bash
 [aria2c/wget] http://ftp.lt.debian.org/debian/pool/main/libp/libpolyclipping/libpolyclipping16_6.1.3a-2_armhf.deb
 [aria2c/wget] http://ftp.lt.debian.org/debian/pool/main/c/cura-engine/cura-engine_14.01-2_armhf.deb
 sudo dpkg -i libpolyclipping16_6.1.3a-2_armhf.deb
 sudo dpkg -i cura-engine_14.01-2_armhf.deb
-
+```
 
 To build and install Cura, run the following commands:
 
