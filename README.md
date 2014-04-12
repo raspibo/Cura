@@ -36,6 +36,7 @@ For "raspbian", download and install packages from Debian sid (armhf):
 [aria2c/wget] http://ftp.lt.debian.org/debian/pool/main/c/cura-engine/cura-engine_14.01-2_armhf.deb
 sudo dpkg -i libpolyclipping16_6.1.3a-2_armhf.deb
 sudo dpkg -i cura-engine_14.01-2_armhf.deb
+sudo aptitude install libgl1-mesa-swx11
 ```
 
 To build and install Cura, run the following commands:
