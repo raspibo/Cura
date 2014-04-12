@@ -33,3 +33,8 @@ sudo dpkg -i ./scripts/linux/cura*.deb
 
 Testate .. contro al muro!
 :)
+
+Riferimenti:
+http://umforum.ultimaker.com/index.php?/topic/4838-how-to-install-cura-on-raspberry-pi/
+http://www.raspberrypi.org/forums/viewtopic.php?f=28&t=45252
+http://raspberrypi.stackexchange.com/questions/3285/sdl-couldnt-find-matching-glx-visual
