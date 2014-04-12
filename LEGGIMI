@@ -20,7 +20,7 @@ Assicuratevi di avere i pacchetti necessari:
 sudo aptitude install python-opengl python-numpy python-serial python-setuptools
 
 Clonate in locale questo fork:
-git clone https://github.com/daid/Cura.git
+git clone https://github.com/raspibo/Cura.git
 
 Entrate nella directory:
 cd Cura

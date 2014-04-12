@@ -42,7 +42,7 @@ sudo aptitude install libgl1-mesa-swx11
 To build and install Cura, run the following commands:
 
 ```bash
-git clone https://github.com/daid/Cura.git
+git clone https://github.com/raspibo/Cura.git
 
 sudo apt-get install python-opengl
 sudo apt-get install python-numpy
