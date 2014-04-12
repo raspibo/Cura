@@ -4,6 +4,7 @@ Cura
 Read this, it's important!
 ===========================
 
+** This fork is a test for achitecture ARMv6, is created for install Cura (gui) on Raspberry Pi. **
 If you are reading this, then you are looking at the *development* version of Cura. If you just want to use Cura, take a look at the following location: https://daid.github.com/Cura
 
 Development
@@ -26,8 +27,15 @@ The "package.sh" script generates a final release package. You should not need i
 
 Both MacOS and Linux require some extra instructions for development, as you need to prepare an environment. Look below at the proper section to see what is needed.
 
-Debian and Ubuntu Linux
+Debian and Ubuntu Linux ?
 --------
+
+For "raspbian", download and install pckages from Debian sid (armhf):
+[aria2c/wget] http://ftp.lt.debian.org/debian/pool/main/libp/libpolyclipping/libpolyclipping16_6.1.3a-2_armhf.deb
+[aria2c/wget] http://ftp.lt.debian.org/debian/pool/main/c/cura-engine/cura-engine_14.01-2_armhf.deb
+sudo dpkg -i libpolyclipping16_6.1.3a-2_armhf.deb
+sudo dpkg -i cura-engine_14.01-2_armhf.deb
+
 
 To build and install Cura, run the following commands:
 
@@ -41,7 +49,7 @@ sudo apt-get install python-setuptools
 
 cd Cura
 
-sudo ./package.sh debian_amd64          # or debian_i386 for 32bit
+sudo ./package.sh debian_armv6          # or debian_amd64 for 64bit, or debian_i386 for 32bit
 
 sudo dpkg -i ./scripts/linux/cura*.deb
 ```
