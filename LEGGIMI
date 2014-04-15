@@ -17,7 +17,7 @@ Sostituite le OpenGL SE (?) con le OpenGL GLX:
 sudo aptitude install libgl1-mesa-swx11
 
 Assicuratevi di avere i pacchetti necessari:
-sudo aptitude install python-opengl python-numpy python-serial python-setuptools
+sudo aptitude install python-opengl python-numpy python-serial python-setuptools curl
 
 Clonate in locale questo fork:
 git clone https://github.com/raspibo/Cura.git
@@ -28,11 +28,12 @@ cd Cura
 Create il pacchetto:
 ./package.sh debian_armv6
 
-Installatelo:
+Installate prima le dipendenze richieste:
+sudo aptitude install python-wxgtk2.8
+
+Poi il pacchetto generato:
 sudo dpkg -i ./scripts/linux/cura*.deb
 
-Testate .. contro al muro!
-:)
 
 Riferimenti:
 http://umforum.ultimaker.com/index.php?/topic/4838-how-to-install-cura-on-raspberry-pi/
